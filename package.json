@@ -9,5 +9,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/setup-test-framework-script-file.js"
   }
 }
