@@ -15,7 +15,7 @@ In my case, it's wrapping wrappers. What this means is when it
 it's actually calling the wrapper over again, which adds another `connection`
 event handler. Eventually, this results in a node warning:
 
->
+> (node:77197) Warning: Possible EventEmitter memory leak detected. 11 connection listeners added. Use emitter.setMaxListeners() to increase limit
 
 Occasionally our node process stops due to memory issues (happens more often on
 Jenkins than local, but I've seen it in both places) and I suspect this is part
