@@ -45,3 +45,7 @@ yarn test
 
 You'll notice that both `file1.test.js` and `file2.test.js` are exactly the same
 but one of them fails. #stateFTW
+
+## Solutions
+
+There's a workaround you can see in the `setup-workaround` branch.
