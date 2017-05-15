@@ -1,5 +1,7 @@
 # jest-core-modules
 
+This is a reproduction issue for a bug/help request for [jest](https://github.com/facebook/jest/issues/3577).
+
 ## Problem
 
 Evidently, `jest` will reset and re-require all of your modules, but it wont do
